@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/github/amedeiros/zoo-wrangler/badges/gpa.svg)](https://codeclimate.com/github/amedeiros/zoo-wrangler)
+[![Test Coverage](https://codeclimate.com/github/amedeiros/zoo-wrangler/badges/coverage.svg)](https://codeclimate.com/github/amedeiros/zoo-wrangler/coverage)
+
 # Zoo Wrangler
 
 ## Description
