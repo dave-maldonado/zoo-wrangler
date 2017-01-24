@@ -1,36 +1,37 @@
 <div class="row">
-  <div class="col-md-2">
-    <img src="/assets/images/logo.svg" alt="" />
-  </div>
-  <div class="col-md-10">
-    <h1>Welcome to Buffalo! [v0.7.1]</h1>
-    <h2>
-      <a href="https://github.com/gobuffalo/buffalo"><i class="fa fa-github" aria-hidden="true"></i> https://github.com/gobuffalo/buffalo</a>
-    </h2>
-    <h2>
-      <a href="http://gobuffalo.io"><i class="fa fa-book" aria-hidden="true"></i> Documentation</a>
-    </h2>
-
+  <div class="col-md-10 col-lg-offset-1">
+    <h2>Zookeeper's</h2>
     <hr>
-    <h2>Defined Routes</h2>
-    <table class="table table-striped">
-      <thead>
-        <tr text-align="left">
-          <th>METHOD</th>
-          <th>PATH</th>
-          <th>HANDLER</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each routes as |r|}}
-        <tr>
-          <td>{{r.Method}}</td>
-          <td>{{r.Path}}</td>
-          <td><code>{{r.HandlerName}}</code></td>
-        </tr>
-        {{/each}}
-      </tbody>
-    </table>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          Host:
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item">Status: </li>
+          <li class="list-group-item">Server ID: </li>
+        </ul>
+
+        <div class="checkbox-inline">
+          <label>
+            <input type="checkbox" checked> Automatic instance restarts
+          </label>
+        </div>
+
+        <div class="checkbox-inline">
+          <label>
+            <input type="checkbox" checked> Log clean up task
+          </label>
+        </div>
+
+      </div>
+      <div class="panel-footer">
+        <a class="btn btn-danger" href="#" role="button">Restart</a>
+        <a class="btn btn-info" href="#" role="button">Log</a>
+      </div>
+    </div>
   </div>
 </div>
 
