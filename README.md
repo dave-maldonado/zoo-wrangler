@@ -13,6 +13,10 @@ Here is a list of some features we want to have in our first release.
 * Visualization
 
 
+## Status
+
+Currently in the beginning of development nothing concrete pull requests welcome!
+
 ## Documentation
 
 To view generated docs for zoo-wrangler, run the below command and point your browser to http://127.0.0.1:6060/pkg/
