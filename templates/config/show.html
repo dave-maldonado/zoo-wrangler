@@ -1,0 +1,158 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Zookeeper Paths
+                </h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="zookeeperInstallDir">ZooKeeper Install Dir</label>
+                    <input type="text" class="form-control" id="zookeeperInstallDir" placeholder="/zookeeper" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="zookeeperSnapshotDir">ZooKeeper Snapshot Dir</label>
+                    <input type="text" class="form-control" id="zookeeperSnapshotDir" placeholder="/zookeeper/data" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="zookeeperTransactionDir">ZooKeeper Transaction Dir</label>
+                    <input type="text" class="form-control" id="zookeeperTransactionDir" placeholder="/zookeeper/data" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Ports
+                </h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="clientPort">Client Port</label>
+                    <input type="text" class="form-control" id="clientPort" placeholder="2181" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="connectPort">Connect Port</label>
+                    <input type="text" class="form-control" id="connectPort" placeholder="2888" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="electionPort">Election Port</label>
+                    <input type="text" class="form-control" id="electionPort" placeholder="3888" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Automatic Server List Add/Remove
+                </h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="autoAddRemove">Automatic On/Off</label>
+                    <input type="checkbox" class="form-control" id="autoAddRemove" disabled checked>
+                </div>
+
+                <div class="form-group">
+                    <label for="applyAtOnce">Apply all at once</label>
+                    <input type="checkbox" class="form-control" id="applyAtOnce" disabled checked>
+                </div>
+
+                <div class="form-group">
+                    <label for="ensembleSize">Ensemble Size</label>
+                    <input type="text" class="form-control" id="ensembleSize" placeholder="3" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="settlingPeriod">Settling Period (ms)</label>
+                    <input type="text" class="form-control" id="settlingPeriod" placeholder="0" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="observerThreshold">Observer Threshold</label>
+                    <input type="text" class="form-control" id="observerThreshold" placeholder="0" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Zookeeper Ensemble
+                </h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="servers">Servers</label>
+                    <textarea class="form-control" id="servers" disabled></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="additionalConfig">Additional Config</label>
+                    <textarea class="form-control" id="additionalConfig" disabled></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="javaEnvScript">java.env script</label>
+                    <textarea class="form-control" id="javaEnvScript" disabled></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="log4JProperties">log4j.properties</label>
+                    <textarea class="form-control" id="log4JProperties" disabled></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Miscellaneous
+                </h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="logIndexDir">Log Index Dir</label>
+                    <input type="text" class="form-control" id="logIndexDir" placeholder="/zookeeper/log/index" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="liveCheck">Live Check (ms)</label>
+                    <input type="text" class="form-control" id="liveCheck" placeholder="30000" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="cleanupPeriod">Cleanup Period (ms)</label>
+                    <input type="text" class="form-control" id="cleanupPeriod" placeholder="300000" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="cleanupMaxLogFiles">Cleanup: Max Log Files</label>
+                    <input type="text" class="form-control" id="cleanupMaxLogFiles" placeholder="20" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

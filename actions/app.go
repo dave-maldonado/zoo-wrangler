@@ -24,6 +24,10 @@ func App() *buffalo.App {
 		app.GET("/", HomeHandler)
 
 		app.ServeFiles("/assets", assetsPath())
+
+		app.GET("/config/show", ConfigShow)
+		app.GET("/config/edit", ConfigEdit)
+		app.GET("/config/create", ConfigCreate)
 	}
 
 	return app
